@@ -2,6 +2,12 @@
 
 > What are the Bitbucket IP addresses I should use to configure my corporate firewall?
 
+## INSTALL
+
+```text
+$ npm install bitbucket-ips --save
+```
+
 To get current IP addresses of Bitbucket
 
 ```js
@@ -27,5 +33,19 @@ The current answer from Confluence:
   ]
 }
 ```
+
+Or, you can use the cli app:
+
+```
+$ npm install -g bbips
+$ bbips
+```
+
+## LICENSE
+
+MIT
+
+
+
 
 
