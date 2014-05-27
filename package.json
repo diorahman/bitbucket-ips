@@ -1,0 +1,33 @@
+{
+  "name": "bitbucket-ips",
+  "version": "0.0.1",
+  "description": "The Bitbucket IP addresses I should use to configure my corporate firewall",
+  "main": "index.js",
+  "scripts": {
+    "test": "make test"
+  },
+  "keywords": [
+    "bitbucket",
+    "ip",
+    "ips",
+    "whitelist"
+  ],
+  "author": "Dhi Aurrahman <diorahman@rockybars.com>",
+  "license": "MIT",
+  "dependencies": {
+    "superagent": "^0.18.0",
+    "cheerio": "^0.16.0"
+  },
+  "devDependencies": {
+    "mocha": "^1.19.0",
+    "should": "^3.3.2"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/diorahman/bitbucket-ips.git"
+  },
+  "bugs": {
+    "url": "https://github.com/diorahman/bitbucket-ips/issues"
+  },
+  "homepage": "https://github.com/diorahman/bitbucket-ips"
+}
